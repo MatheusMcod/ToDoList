@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'about',
     'users',
     'crispy_forms',
-    "crispy_bootstrap5",
+    'crispy_bootstrap5',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -129,7 +130,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'tasks\static')
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
