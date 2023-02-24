@@ -62,7 +62,12 @@
     border-bottom: 1px dashed #ccc;
 }
 
-.fa-solid.fa-trash, .fa-solid.fa-edit {
+.task-item.done {
+    background-color: #ccc;
+}
+
+
+.fa-solid.fa-trash, .fa-solid.fa-edit, .fa-solid.fa-check {
     cursor: pointer;
     margin: 5px;
     font-size: 20px;
@@ -75,6 +80,14 @@
 
 .fa-solid.fa-edit {
     color: #13c43f;
+}
+
+.done .fa-solid.fa-check {
+    color: #ccc;
+}
+
+.done .fa-solid.fa-check {
+    color: #3475e2;
 }
 
 /* Search */
